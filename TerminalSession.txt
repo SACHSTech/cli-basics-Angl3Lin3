@@ -20,4 +20,3 @@ angel@Angels-MacBook-Pro cli-basics-Angl3Lin3 % rm CLIBasicsFolder/myfile.txt
 angel@Angels-MacBook-Pro cli-basics-Angl3Lin3 % rmdir CLIBasicsFolder
 angel@Angels-MacBook-Pro cli-basics-Angl3Lin3 % ls
 README.md               TerminalSession.txt     myfile2.txt
-angel@Angels-MacBook-Pro cli-basics-Angl3Lin3 % 
