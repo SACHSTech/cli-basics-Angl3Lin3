@@ -1,1 +1,23 @@
-
+angel@Angels-MacBook-Pro cli-basics-Angl3Lin3 % pwd
+/Users/angel/github-classroom/SACHSTech/cli-basics-Angl3Lin3
+angel@Angels-MacBook-Pro cli-basics-Angl3Lin3 % mkdir CLIBasicsFolder
+angel@Angels-MacBook-Pro cli-basics-Angl3Lin3 % ls
+CLIBasicsFolder         README.md               TerminalSession.txt
+angel@Angels-MacBook-Pro cli-basics-Angl3Lin3 % cd CLIBasicsFolder
+angel@Angels-MacBook-Pro CLIBasicsFolder % touch myfile.txt
+angel@Angels-MacBook-Pro CLIBasicsFolder % echo Angel ICS4U >> myfile.txt
+angel@Angels-MacBook-Pro CLIBasicsFolder % cat myfile.txt
+Angel ICS4U
+angel@Angels-MacBook-Pro CLIBasicsFolder % cp myfile.txt myfile_copy.txt
+angel@Angels-MacBook-Pro CLIBasicsFolder % ls
+myfile.txt      myfile_copy.txt
+angel@Angels-MacBook-Pro CLIBasicsFolder % mv myfile_copy.txt myfile2.txt
+angel@Angels-MacBook-Pro CLIBasicsFolder % mv myfile2.txt ../myfile2.txt
+angel@Angels-MacBook-Pro CLIBasicsFolder % ls .. 
+CLIBasicsFolder         README.md               TerminalSession.txt     myfile2.txt
+angel@Angels-MacBook-Pro CLIBasicsFolder % cd ..
+angel@Angels-MacBook-Pro cli-basics-Angl3Lin3 % rm CLIBasicsFolder/myfile.txt 
+angel@Angels-MacBook-Pro cli-basics-Angl3Lin3 % rmdir CLIBasicsFolder
+angel@Angels-MacBook-Pro cli-basics-Angl3Lin3 % ls
+README.md               TerminalSession.txt     myfile2.txt
+angel@Angels-MacBook-Pro cli-basics-Angl3Lin3 % 
